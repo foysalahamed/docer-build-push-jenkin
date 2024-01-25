@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.docer-build-push-jenkin</groupId>
-	<artifactId>docer-build-push-jenkin</artifactId>
+	<artifactId>docker-build-push-jenkin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>docer-build-push-jenkin</name>
 	<description>Docker build push using jenkin project for Spring Boot</description>
@@ -41,6 +41,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+	<finalName>docker-build-push-jenkins</finalName>
 	</build>
 
 </project>
